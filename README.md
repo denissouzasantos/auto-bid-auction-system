@@ -55,9 +55,3 @@ Please do not constrain yourself to these test cases if you think other test cas
 * We are not concerned with cancelling a bid.
 * There is no need to provide any form of data persistence.
 * No graphical user interface of any kind is required for the exercise.
-
-primeira rodada
-Alicia = 50 -> 53 -> 56 -> 59 -> 62 -> 65 -> 68 -> 71 -> 71 -> 74 -> 77 -> 77 -> 80 -> 80 -> 80 -> 80
-Olivia = 60 -> 60 -> 60 -> 62 -> 64 -> 66 -> 66 -> 68 -> 70 -> 72 -> 74 -> 76 -> 78 -> 80 -> 82 -> 82
-Mason = 55 -> 60 -> 65 -> 65 -> 65 -> 65 -> 70 ->  70 -> 75 -> 75 -> 75 -> 80 -> 80 -> 80 -> 80 -> 85
- 
