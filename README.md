@@ -52,6 +52,6 @@ The following table includes test data you should use to test your solution.  Bi
 Please do not constrain yourself to these test cases if you think other test cases can provide more confidence in the correctness of your solution.
 ## Not In Scope 
 * We are not concerned with cancelling an auction.
-* We are not concerned with cancelling a bid.
+* We are not concerned with cancelling a bid. 
 * There is no need to provide any form of data persistence.
 * No graphical user interface of any kind is required for the exercise.
