@@ -50,7 +50,7 @@ The following table includes test data you should use to test your solution.  Bi
 | __Winner__       | Mason                | Alicia               | Olivia              |
 | __Winning Amt__  | $85.00               | $722.00              | $3001.00            |
 Please do not constrain yourself to these test cases if you think other test cases can provide more confidence in the correctness of your solution.
-## Not In Scope
+## Not In Scope 
 * We are not concerned with cancelling an auction.
 * We are not concerned with cancelling a bid.
 * There is no need to provide any form of data persistence.
