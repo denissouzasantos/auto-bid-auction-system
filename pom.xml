@@ -9,12 +9,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.autobidauction</groupId>
-	<artifactId>auto-bidDTO-auctionDTO</artifactId>
+	<artifactId>auto-bid-auction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auto-bidDTO-auctionDTO</name>
-	<description>auto-bidDTO-auctionDTO</description>
+	<name>auto-bid-auction</name>
+	<description>auto-bid-auction</description>
 	<properties>
 		<java.version>11</java.version>
+		<springfox-swagger.version>3.0.0</springfox-swagger.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -43,6 +44,17 @@
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${springfox-swagger.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${springfox-swagger.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
