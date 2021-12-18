@@ -18,19 +18,19 @@ All software projects require careful balance of both technical requirements alo
 * Provide clear instructions on how to run your solution and tests.
   We are looking for a **clean**, **well-factored**, object-oriented or functional-oriented codebase at the **appropriate level of abstraction** that has accompanying **unit tests**. We are also looking to **understand you as a developer**: your workflow, values, priorities, and preferences. We want a working solution, but we also want to know what it will be like working with you to get to such a solution.
 ## Functional Requirements
-Your company has tasked you with creating an auto-bid auction system, giving bidders the ability to pre-authorize bids up to a maximum even when they aren't connected to the platform.
-Your objective is to create an API and algorithm for determining the winning bid after all bidders have entered their bid directions into the system.  Your API will be integrated into the auction house's website by other developers working on the project, so it is imperative that your API be clean and self documenting with additional inline comments where it improves readability.
+Your company has tasked you with creating an auto-bidDTO auctionDTO system, giving bidders the ability to pre-authorize bidDTOS up to a maximum even when they aren't connected to the platform.
+Your objective is to create an API and algorithm for determining the winning bidDTO after all bidders have entered their bidDTO directions into the system.  Your API will be integrated into the auctionDTO house's website by other developers working on the project, so it is imperative that your API be clean and self documenting with additional inline comments where it improves readability.
 The site will allow each bidder to enter three parameters:
-1.  __Starting bid__: The first and lowest bid the buyer is willing to offer for the item.
+1.  __Starting bid__: The first and lowest bidDTO the buyer is willing to offer for the item.
 2.  __Max bid__: This maximum amount the bidder is willing to pay for the item.
-3.  __Auto-increment amount__: A dollar amount that the computer algorithm will add to the bidder's current bid each time the bidder is in a losing position relative to the other bidders.
+3.  __Auto-increment amount__: A dollar amount that the computer algorithm will add to the bidder's current bidDTO each time the bidder is in a losing position relative to the other bidders.
     * The algorithm should only allow increments of the exact auto-increment amount.
-    * The algorithm should never let the current bid exceed the Max bid.
-      For each auction, your algorithm should determine:
+    * The algorithm should never let the current bidDTO exceed the Max bidDTO.
+      For each auctionDTO, your algorithm should determine:
 * __Who is the winning bidder?__
-* __What is the amount of the winning bid?__
+* __What is the amount of the winning bidDTO?__
 ## Scenarios
-The following table includes test data you should use to test your solution.  Bidders are listed in the order they entered their information on the site. Should there be a tie between two or more bidders, the first person that entered their information wins. The amount of the winner's bid should be the lowest amount possible while observing all the previous rules.
+The following table includes test data you should use to test your solution.  Bidders are listed in the order they entered their information on the site. Should there be a tie between two or more bidders, the first person that entered their information wins. The amount of the winner's bidDTO should be the lowest amount possible while observing all the previous rules.
 | Bidder           | Auction One: Skates | Auction Two: Unicycle | Auction Three: Hover Board |
 |------------------|---------------------:|---------------------:|--------------------:|
 | __Alicia__       |                      |                      |                     |
@@ -51,7 +51,7 @@ The following table includes test data you should use to test your solution.  Bi
 | __Winning Amt__  | $85.00               | $722.00              | $3001.00            |
 Please do not constrain yourself to these test cases if you think other test cases can provide more confidence in the correctness of your solution.
 ## Not In Scope 
-* We are not concerned with cancelling an auction.
-* We are not concerned with cancelling a bid. 
+* We are not concerned with cancelling an auctionDTO.
+* We are not concerned with cancelling a bidDTO. 
 * There is no need to provide any form of data persistence.
 * No graphical user interface of any kind is required for the exercise.

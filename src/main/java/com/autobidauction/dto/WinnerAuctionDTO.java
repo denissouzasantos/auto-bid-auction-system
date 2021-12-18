@@ -1,4 +1,4 @@
-package com.autobidauction;
+package com.autobidauction.dto;
 
 
 import lombok.EqualsAndHashCode;
@@ -12,10 +12,19 @@ import java.math.BigDecimal;
 @Getter
 @EqualsAndHashCode
 @ToString
-public class WinnerBid {
+public class WinnerAuctionDTO {
 
+    /**
+     * The winner bidder name
+     */
     private String bidder;
+    /**
+     * The winner bid value
+     */
     private BigDecimal winnerBid;
+    /**
+     * The item name of auction
+     */
     private String auction;
 
 }

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.autobidauction</groupId>
-	<artifactId>auto-bid-auction</artifactId>
+	<artifactId>auto-bidDTO-auctionDTO</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auto-bid-auction</name>
-	<description>auto-bid-auction</description>
+	<name>auto-bidDTO-auctionDTO</name>
+	<description>auto-bidDTO-auctionDTO</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
